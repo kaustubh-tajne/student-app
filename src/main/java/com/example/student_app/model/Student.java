@@ -15,10 +15,13 @@ public class Student {
     @Id
     private Integer id;
 
+    @Column(name = "name")
     private String name;
 
+    @Column(name = "roll_no")
     private Integer rollNo;
 
+    @Column(name = "description")
     private String description;
 
 
